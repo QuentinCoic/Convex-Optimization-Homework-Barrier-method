@@ -176,7 +176,3 @@ def quad(x,Q,p) :
     méthode log-barrière.
     """
     return (1/2)*np.dot(x,np.dot(Q,x)) + np.dot(p,x)
-    
-
-    
-    
